@@ -1,0 +1,24 @@
+{
+  "name": "drilling-connections-data-tool",
+  "version": "1.0.0",
+  "description": "finds connections data for pason and totco drilling data",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "package-win": "electron-packager . --overwrite --asar=true --platform=win32 --arch=ia32 --prune=true --out=release-builds --version-string.CompanyName=CE --version-string.FileDescription=CE --version-string.ProductName=\"Drilling Connections Data Tool\"",
+    "create-installer-win": "node installers/windows/createinstaller.js"
+  },
+  "author": "Noah Shafer",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^3.0.10",
+    "electron-packager": "^13.0.0",
+    "electron-winstaller": "^2.7.0"
+  },
+  "dependencies": {
+    "csv-parse": "^4.0.1",
+    "csv-stringify": "^5.0.0",
+    "moment": "^2.22.2",
+    "moment-duration-format": "^2.2.2"
+  }
+}

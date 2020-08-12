@@ -1,0 +1,56 @@
+/* app styles */
+#app {
+    margin: 0 30px;
+  }
+  
+  #app * {
+    margin: 10px 0 10px 0;
+  }
+  
+  /* Navbar styles */
+  .navbar-brand:hover {
+    cursor: pointer;
+    opacity: 0.5;
+  }
+   
+
+  /* Upload and download button styles */
+  #csvButton {
+    margin-right: 10px;
+  }
+
+  #downloadCsvButton {
+    margin-right: 10px;
+  }
+
+  .upload-and-download {
+    display: flex;
+    flex-direction: row;
+  }
+
+  /* Percentage form styles */
+  .percentage-form {
+    display: flex;
+    flex-direction: row;
+  }
+
+  #percentageInput {
+    width: 100px;
+    margin-right: 10px;
+  }
+
+  .percentage-form #setPercentage {
+    margin-right: 10px;
+  }
+
+  /* percentage label styles */
+  .percentage-setting-label {
+    display: flex;
+    flex-direction: row;
+  }
+
+  /* upload csv button and percentage input field container styles */
+  .upload-csv-percentageInput-container {
+    display: flex;
+    flex-direction: row;
+  }
